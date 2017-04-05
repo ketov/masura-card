@@ -1,0 +1,43 @@
+header{
+    background-image: url('../img/header-bg@2x.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 0 0 9px 0;
+    text-align: center;
+    h1{
+        font-family: "fira-sans", sans-serif;
+        font-size: 235%;
+        font-weight: 500;
+        margin: 0;
+    }
+    a{
+        display: table;
+        margin: 0 auto;
+        padding: 30px 0 25px 0;
+        img{
+            display: block;
+        }
+    }
+}
+@media(max-width: 1440px){
+    header{
+        background-image: url('../img/header-bg.png');
+    }
+}
+
+@media(max-width: 620px){
+    header{
+        padding: 0 0 6px;
+        a{
+            padding: 16px 0 3px;
+        }
+        h1{
+            font-size: 180%;
+        }
+    }
+    .logo-img{
+        width: 105px;
+    }
+}

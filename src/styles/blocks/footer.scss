@@ -1,0 +1,40 @@
+footer{
+    font-size: 85%;
+    font-weight: 600;
+    padding: 38px 0 12px 0;
+    position: relative;
+    text-align: center;
+    .copyright{
+        color: #51575b;
+        margin: 0 42px 0 0;
+    }
+    .phone{
+        color: #51575b;
+        margin: 0 42px 0 0;
+        text-decoration: none;
+    }
+    .email{
+        color: #51575b;
+        text-decoration: none;
+    }
+}
+
+@media(max-width: 620px){
+    footer{
+        margin: 0 auto;
+        padding: 21px 0 32px;
+        width: 92%;
+        .copyright{
+            bottom: 8px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+        }
+        .phone{
+            float: left;
+        }
+        .email{
+            float: right;
+        }
+    }
+}

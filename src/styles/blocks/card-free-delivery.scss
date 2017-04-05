@@ -1,0 +1,21 @@
+.card-free-delivery{
+    background: #f4f2ed;
+    border-radius: 4px;
+    margin: 0 auto 8px;
+    max-width: 940px;
+    padding: 14px 0 13px 0;
+    text-align: center;    
+}
+
+@media(max-width:990px){
+    .card-free-delivery{
+        width: 92%;
+    }
+}
+
+@media(max-width: 620px){
+    .card-free-delivery{
+        border-radius: 0;
+        width: 100%;
+    }
+}
