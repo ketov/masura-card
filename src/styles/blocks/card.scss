@@ -65,6 +65,17 @@
         position:relative;
         transition: 0.3s;
         width: 20px;
+        z-index: 2;
+        &:active{
+            border: 2px solid #ff5020;
+            background: #ff5020;
+        }
+        &:active:after{
+            background: #fff;
+        }
+        &:active:before{
+            background: #fff;
+        }
         &:hover{
             border: 2px solid #ff5020;
             background: #ff5020;
@@ -105,6 +116,7 @@
         position: relative;
         transition: 0.3s;
         width: 20px;
+        z-index: 2;
         &:hover{
             border: 2px solid #ff5020;
             background: #ff5020;
@@ -261,7 +273,8 @@
             }
         }
         &__img{
-            width: 15.4%;
+            height: 130px;
+            width: 130px;
         }
         &__plus-minus-container{
             bottom: 14px;
@@ -281,6 +294,10 @@
 
 @media(max-width: 670px){
     .card{
+        &__img{
+            height: 98px;
+            width: 17%;
+        }
         &__name{
             font-size: 90%;
             position: absolute;

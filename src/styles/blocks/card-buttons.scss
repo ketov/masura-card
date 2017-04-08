@@ -66,8 +66,10 @@
 @media(max-width: 380px){
     .card-buttons{
         button{
-            font-size: 85%;
-            padding: 7px 9px;
+            display: table;
+            float: none;
+            margin: 0 auto 10px;
+            width: 90%;
         }
     }
 }

@@ -10,6 +10,7 @@ function isMobile() {
 }
 
 $(document).ready(function () {
+
     var body = $('body'),
             timer,
             windowHeight = $(window).height(),

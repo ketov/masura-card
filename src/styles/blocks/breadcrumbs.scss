@@ -1,4 +1,4 @@
-.card-breadcrumbs{
+.breadcrumbs{
     padding: 20px 0 20px 0;
     text-align: center;
     span{
@@ -17,7 +17,7 @@
 }
 
 @media(max-width: 760px){
-    .card-breadcrumbs{
+    .breadcrumbs{
         span{
             background: url(../img/breadcrumbs-arrow.svg) no-repeat 0 5px;
             display: inline-block;
@@ -27,7 +27,7 @@
 }
 
 @media(max-width: 620px){
-    .card-breadcrumbs{
+    .breadcrumbs{
         span{
             background: url(../img/breadcrumbs-arrow.svg) no-repeat 0 4px;
             font-size: 85%;
